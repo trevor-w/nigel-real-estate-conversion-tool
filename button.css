@@ -1,0 +1,16 @@
+.button {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    box-shadow: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
