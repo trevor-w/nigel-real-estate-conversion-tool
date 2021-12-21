@@ -22386,7 +22386,7 @@ async function parseHTML(sourceHTML) {
         const fileType = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
         const fileExtension = '.xlsx';
         const blob = new Blob([buffer], { type: fileType });
-        (0, file_saver_1.saveAs)(blob, 'fileName.xlsx');
+        (0, file_saver_1.saveAs)(blob, 'sold-record-report.xlsx');
         return;
     }
     catch (e) {
